@@ -1,28 +1,28 @@
 {
   "name": "@bugbearr/babel-node-npm-exp",
-  "version": "0.0.1",
   "description": "Transpile by Babel for Node.js by npm",
-  "main": "dist/index.js",
-  "scripts": {
-    "build": "babel src --out-dir dist",
-    "start": "node dist/index.js",
-    "clean": "rimraf dist/*",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/BugbearR/babel-node-npm-exp.git"
-  },
+  "version": "0.0.1",
   "author": "BugbearR <bugbearr@bugbearr.jp>",
-  "license": "CC0-1.0",
   "bugs": {
     "url": "https://github.com/BugbearR/babel-node-npm-exp/issues"
   },
-  "homepage": "https://github.com/BugbearR/babel-node-npm-exp#readme",
   "devDependencies": {
     "@babel/cli": "^7.18.10",
     "@babel/core": "^7.18.10",
     "@babel/preset-env": "^7.18.10",
     "rimraf": "^3.0.2"
+  },
+  "homepage": "https://github.com/BugbearR/babel-node-npm-exp#readme",
+  "license": "CC0-1.0",
+  "main": "dist/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BugbearR/babel-node-npm-exp.git"
+  },
+  "scripts": {
+    "build": "babel src --out-dir dist",
+    "clean": "rimraf dist/*",
+    "start": "node dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   }
 }
